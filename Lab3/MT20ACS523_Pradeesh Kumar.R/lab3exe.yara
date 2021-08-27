@@ -3,7 +3,7 @@ rule lab3exe
 meta:
 	Description = "Simple YARA rule to detect 2018-05-KPOT"
 	Author = "Pradeesh Kumar.R (MT20ACS523)"
-	Date = "2021-08-25"
+	Date = "2021-08-27"
 
 strings:
 	$str01 = "http://%s" wide ascii //This file references a URL Pattern
